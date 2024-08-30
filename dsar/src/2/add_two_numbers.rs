@@ -1,4 +1,5 @@
 // solution to run locally
+
 #[derive(PartialEq, Eq, Clone, Debug)]
 pub struct ListNode {
 	pub val: i32,
@@ -75,7 +76,7 @@ pub fn to_vec(list: Option<Box<ListNode>>) -> Vec<i32> {
 	vec
 }
 
-// solution to submit
+/* solution to submit
 
 impl Solution {
 	pub fn add_two_numbers(
@@ -113,3 +114,5 @@ impl Solution {
 		head.unwrap().next
 	}
 }
+
+*/
